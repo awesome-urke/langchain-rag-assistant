@@ -5,7 +5,10 @@ from langchain.chat_models import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
 
 
-CHROMA_PATH = "chroma"
+# CHROMA_PATH = "chroma"
+# "./data/image.png"
+CHROMA_PATH = "./chroma/"
+
 
 PROMPT_TEMPLATE = """
 Answer the question based only on the following context:
